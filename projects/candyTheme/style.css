@@ -1,0 +1,473 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* GERAL */
+
+ li, label{
+  list-style: none;
+ }
+.descricao h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.descricao p {
+  text-align: center;
+  max-width: 600px;
+}
+
+/* MENU TOP */
+
+.menuTop {
+  display: flex;
+  align-items: center;
+  background-color: #2B3E4F;
+  padding: 10px;
+  justify-content: space-between;
+}
+.menuTop__logo {
+  height: 50px;
+}
+.menuTop__menu {
+  display: flex;
+}
+.menuTop__menu li{
+  margin-left: 20px;;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+}
+.slideFace {
+  display: flex;
+  justify-content: center;
+  background-color: #D44D4E;
+  height: 600px;
+}
+.slideFace img {
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+/* HELLO WORLD */
+
+.helloWorld {
+  margin: 70px 0;
+}
+.helloWorld__descricao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.helloWorld__descricao h1 {
+  color: #49C9B0;
+  border-bottom: 4px rgb(224, 224, 224) solid;
+}
+.helloWorld__descricao p {
+  color: grey;
+}
+.helloWorld__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.helloWorld__icon div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  background-color: #F4F1EC;
+  border-radius: 50%;
+}
+.helloWorld__icon img {
+  height: 100px;
+}
+.helloWorld__icon {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.helloWorld__icons div h1 {
+  margin: 15px 0 0 0;
+  font-size: 18px;
+  color: #D44D4E;
+  font-weight: 600;
+}
+.helloWorld__icons div p {
+  text-align: center;
+  color: rgb(80, 80, 80);
+  margin-bottom: 0;
+}
+
+/* RECENT PROJECTS */
+
+.recentProjects {
+  padding: 70px 0;
+  background-color: #49C9B0;
+}
+.recentProjects__descricao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.recentProjects__descricao h1 {
+  color: #ffffff;
+  border-bottom: 4px #49B4A0 solid;
+}
+.recentProjects__descricao p {
+  color: rgb(255, 255, 255);
+}
+.recentProjects__icons {
+  display: flex;
+  justify-content: center;
+}
+.recentProjects__icons img {
+  width: 500px;
+  margin-top: 20px;
+} 
+
+/* TEAM */
+
+.team {
+  padding: 70px 0;
+}
+.team__descricao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.team__descricao h1 {
+  color: #49C9B0;
+  border-bottom: 4px rgb(224, 224, 224) solid;
+}
+.team__descricao p {
+  color: grey;
+}
+.team__perfis {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.team__perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  background-color: #F9FAF5;
+  border-radius: 10px 10px 0 0;
+  margin: 50px 10px;
+}
+.team__perfil img {
+  margin-top: 50px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.team__perfil h1 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.team__follow {
+  background-color: #FA5C5D;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+.team__follow h1 {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  padding: 18px;
+}
+
+/* WORK */
+
+.work {
+  padding: 70px 0;
+  background-color: #49C9B0;
+}
+.work__descricao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.work__descricao h1 {
+  color: #ffffff;
+  border-bottom: 4px #49B4A0 solid;
+}
+.work__descricao p {
+  color: rgb(255, 255, 255);
+}
+.work__buttons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.work__buttons button {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  padding: 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #39AD96;
+}
+.work__photoGallery {
+  justify-content: space-evenly;
+  display: flex;
+}
+.work__photoGallery img {
+  width: 300px;
+  margin: 20px 10px;
+}
+.work__photoGallery div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+/* SERVICES */
+
+.services {
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services__descricao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.services__descricao h1 {
+  color: #49C9B0;
+  border-bottom: 4px rgb(224, 224, 224) solid;
+}
+.services__descricao p {
+  color: grey;
+}
+.services__icons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services__icon {
+  margin: 0 20px;
+}
+.services__icons div img{
+  height: 100px;
+}
+.services__icon div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  background-color: #F4F1EC;
+  border-radius: 50%;
+}
+.services__icon h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: gray;
+}
+.services__barras {
+  margin-top: 70px;
+}
+.services__barra {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin-bottom: 30px;
+}
+.services__barra div div{
+  background-color: #23AC90;
+}
+.services__barra div{
+  display: flex;
+  background-color: #ebebeb;
+  width: 600px;
+}
+.services__barra div h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+  color: #94EBDB;
+}
+.services__barra h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  font-weight: 600;
+  color: gray;
+}
+.services__barra1 div div{
+  background-color: #23AC90;
+  width: 100%;
+}
+.services__barra2 div div{
+  background-color: #23AC90;
+  width: 90%;
+}
+.services__barra3 div div{
+  background-color: #23AC90;
+  width: 50%;
+}
+.services__barra4 div div{
+  background-color: #23AC90;
+  width: 90%;
+}
+
+/* SAY HELLO */
+
+.sayHello {
+  padding: 70px 0;
+  background-color: #49C9B0;
+}
+.sayHello__descricao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.sayHello__descricao h1 {
+  color: #ffffff;
+  border-bottom: 4px #49B4A0 solid;
+}
+.sayHello__descricao p {
+  color: rgb(255, 255, 255);
+}
+
+.sayHello__formArea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sayHello__formArea ul {
+  width: 400px;
+  margin-top: 70px;
+}
+.sayHello__formArea ul li {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.sayHello__formArea ul::before {
+  content: "Contact us";
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+}
+form {
+  margin-top: 50px;
+  width: 500px;
+}
+form label {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #40B89F;
+}
+form textarea {
+  width: 480px;
+  background-color: #40B89F;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+form div {
+  margin-top: 20px;
+  text-align: right;
+}
+form button {
+  width: 180px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  background-color: #FA5C5D;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Newsletter */
+
+.newsletter {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #2B3E4F;
+  padding: 70px 0;
+}
+.newsletter h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+}
+.newsletter input {
+  width: 400px;
+  margin: 0 25px;
+  background-color: #486E93;
+  border: none;
+  border-radius: 3px;
+}
+.newsletter button {
+  width: 180px;
+  font-size: 16px;
+  color: white;
+  background-color: #40B89F;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
