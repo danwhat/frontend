@@ -30,25 +30,37 @@
   color: white;
   margin: 0;
 }
-.header h2 {
+.header__content h2 {
   font-weight: 300px;
   color: white;
   font-size: 16px;
   margin-bottom: 25px;
 }
 .header h3 {
+
   text-transform: uppercase;
   font-weight: 300px;
   color: white;
   font-size: 12px;
   margin-bottom: 25px;
 }
+.header__content p {
+  display: none;
+  width: 100%;
+  max-width: 800px;
+  font-weight: 300px;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
 .header__app {
-  width: 90%;
+  margin: 0 auto;
+  max-width: 400px;
   display: flex;
   justify-content: space-around;
 }
 .header__app img {
+  margin: 0 10px;
   height: 40px;
 }
 .header__icons {
@@ -61,10 +73,46 @@
   font-weight: 200;
 }
 
+@media (min-width: 1000px) {
+  .header {
+    background: url("./img/imgHeader.jpg");
+    background-position: center;
+  }
+  .header__content {
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header__content div h2 {
+    text-align: left;
+  }
+  .header__content div p {
+    display: block;
+    text-align: left;
+    max-width: 400px;
+  }
+  .header__app img {
+    margin: 0 20px 0 0;
+    height: 40px;
+  }
+  .header__app {
+    justify-content: left;
+  }
+}
+
 /* First Section */
 
-.firstSection__info {
+.firstSection {
+  padding: 30px 0;
   margin: 0 auto;
+  max-width: 840px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.firstSection__info {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -99,8 +147,9 @@
   padding: 70px 0;
 }
 .phrase h1 {
+  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
-  width: 280px;
   font-family: 'Catamaran', sans-serif;
   text-align: center;
   color: white;
@@ -116,7 +165,8 @@
 }
 .iphoneTitle h1{
   margin: 0 auto;
-  width: 240px;
+  width: 80%;
+  max-width: 800px;
   text-align: center;
   color: white;
   font-family: 'Catamaran', sans-serif;
@@ -145,14 +195,15 @@
   margin: 30px 0;
 }
 .iphone p {
+  width: 80%;
+  max-width: 800px;
   font-size: 14px;
   color: white;
   text-align: justify;
   line-height: 22px;
-  width: 280px;
   margin-bottom: 30px;
 }
-.iphone img {
+.iphone div img {
   width: 200px;
 }
 
@@ -162,17 +213,28 @@
 .iphone2 {
   background-color: #2B2E37;
 }
-
-/* Form */
-
-.form {
-  background-color: #c54b3c;
+.iphone div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* Form */
+.form{
+  padding-top: 30px;
+  background-color: #c54b3c;
+
+}
+.form div{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  width: 80%;
+
+}
 .form h1 {
-  margin: 30px auto 0 auto;
+  margin: 0 auto;
   width: 240px;
   text-align: center;
   color: white;
@@ -180,29 +242,50 @@
   font-size: 48px;
   font-weight: 200;
 }
-.form label {
-  width: 240px;
+.form div label {
+  width: 100%;
+  max-width: 600px;
   margin: 20px 0 5px 0;
   color: white;
 }
-.form input {
-  width: 240px;
+.form div input {
+  width: 100%;
+  max-width: 600px;
   padding: 10px;
   border: none;
   border-radius: 2px;
 }
-.form textarea {
-  width: 240px;
+.form div textarea {
+  width: 100%;
+  max-width: 600px;
   padding: 10px;
   border: none;
   border-radius: 2px;
 }
-.form button {
-  margin-right: 200px;
+.form div button {
   margin-top: 15px;
   border: none;
   background-color: #a84437;
   color: white;
   padding: 10px;
   border-radius: 2px;
+}
+
+@media (min-width: 460px) {
+  .header p {
+    display: block;
+  }
+}
+
+@media (min-width: 1000px) {
+  .iphone div p {
+    width: 450px;
+    margin: 0 50px;
+  }
+  .iphone div {
+    flex-direction: row;
+    }
+  .iphone2 div {
+    flex-direction: row-reverse;
+  }
 }
