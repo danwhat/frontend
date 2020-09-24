@@ -1,0 +1,208 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+
+.header {
+  position: relative;
+  padding: 90px 0;
+  text-align: center;
+  background:linear-gradient(#c54c3cea 100%, #c54c3c18 100%),url("./img/imgHeader.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+}
+.header__logo {
+  position: absolute;
+  top: 0px;
+  height: 70px;
+  width: 70px;
+  background-color: white;
+}
+.header h1 {
+  font-size: 56px;
+  color: white;
+  margin: 0;
+}
+.header h2 {
+  font-weight: 300px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.header h3 {
+  text-transform: uppercase;
+  font-weight: 300px;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+.header__app {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.header__app img {
+  height: 40px;
+}
+.header__icons {
+  margin: 20px 0;
+}
+.header__icons i {
+  font-size: 22px;
+  color: white;
+  margin: 0 10px;
+  font-weight: 200;
+}
+
+/* First Section */
+
+.firstSection__info {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 280px;
+  padding: 30px 0;
+}
+.firstSection__info h1 {
+  text-align: center;
+}
+.firstSection__info h2 {
+  margin: 15px 0;
+  color: gray;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+.firstSection__info p {
+  text-align: center;
+  font-size: 14px;
+}
+.firstSection__info i {
+  text-align: center;
+  font-size: 30px;
+  color: #c54b3c;
+  margin-bottom: 20px;
+}
+
+/* Phrase */
+
+.phrase {
+  background-color: #c54b3c;
+  padding: 70px 0;
+}
+.phrase h1 {
+  margin: 0 auto;
+  width: 280px;
+  font-family: 'Catamaran', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+/* iphone Title */
+
+.iphoneTitle {
+  padding-top: 50px;
+  background-color: #393B46;
+}
+.iphoneTitle h1{
+  margin: 0 auto;
+  width: 240px;
+  text-align: center;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 200;
+}
+
+/* iphone */
+
+.iphone {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #393B46;
+}
+.iphone i {
+  text-align: center;
+  font-size: 30px;
+  color: #c54b3c;
+}
+.iphone h1 {
+  color: white;
+  margin: 30px 0;
+}
+.iphone p {
+  font-size: 14px;
+  color: white;
+  text-align: justify;
+  line-height: 22px;
+  width: 280px;
+  margin-bottom: 30px;
+}
+.iphone img {
+  width: 200px;
+}
+
+.iphone1 {
+  background-color: #393B46;
+}
+.iphone2 {
+  background-color: #2B2E37;
+}
+
+/* Form */
+
+.form {
+  background-color: #c54b3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form h1 {
+  margin: 30px auto 0 auto;
+  width: 240px;
+  text-align: center;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+}
+.form label {
+  width: 240px;
+  margin: 20px 0 5px 0;
+  color: white;
+}
+.form input {
+  width: 240px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+.form textarea {
+  width: 240px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+.form button {
+  margin-right: 200px;
+  margin-top: 15px;
+  border: none;
+  background-color: #a84437;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+}
