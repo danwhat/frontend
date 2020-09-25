@@ -4,7 +4,7 @@ Sempre aprendi de forma pratica.
 
 Aqui é onde eu coloco meus estudos de *font-end*, seja ele uma metodologia diferente de organizar o código, um novo framework ou simplesmente uma interface aleatória da web que eu decidi programar para praticar.
 
-[Link para o Pages](ttps://danwhat.github.io/frontend/)
+[Link para o Pages](https://danwhat.github.io/frontend/)
 
 <!-- # Os 3 principais.
 
