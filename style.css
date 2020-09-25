@@ -57,6 +57,11 @@ section {
 .content p {
   color: gray;
 }
+.content h2 {
+  color: gray;
+  font-size: 12px;
+  font-weight: 200;
+}
 .content div {
   margin: 30px 0;
   display: flex;
