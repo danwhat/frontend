@@ -1,0 +1,230 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.header {
+  padding: 100px 0;
+  background-color: #18343C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header img {
+  color: white;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.header h1 {
+  width: 80%;
+  max-width: 800px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.header h2 {
+  width: 80%;
+  max-width: 800px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 200;
+}
+.header button {
+  margin-top: 20px;
+  background-color: #8BC735;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+/* Menu */
+
+.menuBar {
+  padding: 50px 0;
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+}
+.menuBar ul {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menuBar li {
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+}
+.menuBar img {
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+/* We are Omega */
+
+.weAreOmega {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 920px;
+}
+.weAreOmega div {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.weAreOmega div h1 {
+  text-align: center;
+  border-bottom: 3px solid rgb(230, 230, 230);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.weAreOmega div h2 {
+  text-align: center;
+  color: #90C63A;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.weAreOmega div p {
+  text-align: center;
+  color: gray;
+}
+.weAreOmega img {
+  margin-top: 30px;
+  width: 300px;
+
+}
+
+/* What we do */
+
+.whatWeDo {
+  background-color: #F2F2F2;
+}
+.whatWeDo {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.whatWeDo__info {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 50px;
+}
+.whatWeDo__info h1 {
+  text-align: center;
+  border-bottom: 3px solid rgb(230, 230, 230);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.whatWeDo__info h2 {
+  text-align: center;
+  color: #90C63A;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.whatWeDo__info p {
+  text-align: center;
+  color: gray;
+}
+.whatWeDo__icons {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 920px;
+}
+.whatWeDo__icon {
+  margin: 15px;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.whatWeDo__icon img {
+  margin-bottom: 20px;
+  height: 40px;
+}
+.whatWeDo__icon h1 {
+  text-align: center;
+  border-bottom: 3px solid rgb(230, 230, 230);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.whatWeDo__icon p {
+  text-align: center;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 915px) {
+  /* Menu */
+  .menuBar {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+  }  
+  .menuBar img {
+    height: 35px;
+    margin-bottom: 0;
+  }
+  /* We are Omega */
+  .weAreOmega div {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .weAreOmega div h2 {
+    text-align: left;
+  }
+  .weAreOmega div p {
+    text-align: left;
+  }
+  /* What we do */
+  .whatWeDo__info {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    max-width: 920px;
+  }
+  .whatWeDo__info h2 {
+    text-align: left;
+  }
+  .whatWeDo__info p {
+    text-align: left;
+  }
+}
