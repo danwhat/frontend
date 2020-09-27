@@ -1,10 +1,10 @@
 /* Menu 1 */
 
 const btn1 = document.querySelector(".btn1")
-btn1.addEventListener('mouseover', onoff)
+btn1.addEventListener('mouseover', () => onoff())
 
 const menu1 = document.querySelector(".menu1")
-menu1.addEventListener('mouseleave', onoff)
+menu1.addEventListener('mouseleave', () => onoff())
 
 const onoff = () => {
   const menu1 = document.querySelector(".menu1")
