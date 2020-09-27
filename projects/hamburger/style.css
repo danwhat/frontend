@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Menu 1 */
+
+.btn1 {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: indigo;
+  outline:none;
+}
+.btn i {
+  font-size: 30px;
+  color: lightgrey;
+}
+.menu1 {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: indigo;
+  line-height: 2;
+}
+.menu1 a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+/* Menu 2 */
+
+.btn2 {
+  position: fixed;
+  top: 70px;
+  left: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: indigo;
+}
+.menu2 {
+  padding-top: 50px;
+  position: fixed;
+  background-color: indigo;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  transform: translateX(100%);
+}
+.menu2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: 15px 30px;
+}
+#menu2__logo{
+  font-size: 80px;
+  text-align: center;
+}
+
+/* Able */
+
+.able {
+  display: block;
+}
