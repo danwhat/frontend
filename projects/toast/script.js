@@ -7,5 +7,7 @@ btn.addEventListener('click', () => {
   notifi.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis earum sit.'
   notiDiv.appendChild(notifi)
 
-  setTimeout(() => { notifi.remove()}, 2000)
+  setTimeout(() => {
+    notifi.style.opacity= '0';
+    setTimeout(() => { notifi.remove(); }, 2000)},2000)
 })
