@@ -9,5 +9,5 @@ btn.addEventListener('click', () => {
 
   setTimeout(() => {
     notifi.style.opacity= '0';
-    setTimeout(() => { notifi.remove(); }, 2000)},2000)
+    setTimeout(() => { notifi.remove(); }, 2500)},2500)
 })
